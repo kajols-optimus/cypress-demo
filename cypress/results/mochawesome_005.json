@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-12-05T09:08:35.603Z",
+    "end": "2023-12-05T09:08:54.010Z",
+    "duration": 18407,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "acb604d0-3a87-459e-948f-32f9bb9df436",
+      "title": "",
+      "fullFile": "cypress\\integration\\cypressPOMTests\\Testcase2Test.js",
+      "file": "cypress\\integration\\cypressPOMTests\\Testcase2Test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2a73d554-0ae3-4809-9c5b-9cc947bf2298",
+          "title": "Testcase 2",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify My cart page with same product added to cart",
+              "fullTitle": "Testcase 2 Verify My cart page with same product added to cart",
+              "timedOut": null,
+              "duration": 15271,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"Verify My cart page with same product added to cart\");\nhomePage.navigateToUrl();\nhomePage.setLocation();\nhomePage.clickGroceriesAndEssentials();\nmyCartPage.verifyUserLandedOnMyCartPageWithSameAddedProductName();",
+              "err": {},
+              "uuid": "2bcaa980-6a54-4780-8118-7dd0088c72d2",
+              "parentUUID": "2a73d554-0ae3-4809-9c5b-9cc947bf2298",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2bcaa980-6a54-4780-8118-7dd0088c72d2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15271,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "screenshots": true,
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "json": true,
+        "video": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

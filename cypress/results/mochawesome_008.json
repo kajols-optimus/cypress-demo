@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-12-05T09:10:13.331Z",
+    "end": "2023-12-05T09:10:31.898Z",
+    "duration": 18567,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0d36e64a-4f7d-4b39-ba74-2a7cd481afdf",
+      "title": "",
+      "fullFile": "cypress\\integration\\cypressPOMTests\\Testcase5Test.js",
+      "file": "cypress\\integration\\cypressPOMTests\\Testcase5Test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5d30f5a7-ac4c-424c-ac0f-457491adec60",
+          "title": "Testcase 5",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Parter Tip Functionality on checkout page",
+              "fullTitle": "Testcase 5 Verify Parter Tip Functionality on checkout page",
+              "timedOut": null,
+              "duration": 14339,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//cy.logToFile(\"Verify Parter Tip Functionality on checkout page\")\ncy.log(\"Verify Parter Tip Functionality on checkout page\");\nhomePage.navigateToUrl();\nhomePage.setLocation();\nhomePage.clickGroceriesAndEssentials();\ngroceriesAndEssentialsPage.addTwoGroceryProductsInCartAndCheckout();\nmyCartPage.verifyUserLandedOnMyCartPage();\nmyCartPage.verifyPartnerTipAmountAdded();",
+              "err": {},
+              "uuid": "5670e256-2395-40dc-a132-28914329213c",
+              "parentUUID": "5d30f5a7-ac4c-424c-ac0f-457491adec60",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5670e256-2395-40dc-a132-28914329213c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14339,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "screenshots": true,
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "json": true,
+        "video": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
