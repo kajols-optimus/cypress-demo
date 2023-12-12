@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-12-05T07:41:57.851Z",
+    "end": "2023-12-05T07:42:32.028Z",
+    "duration": 34177,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "61a271a0-6516-4efc-8cc1-14cab34ddeb0",
+      "title": "",
+      "fullFile": "cypress\\integration\\cypressPOMTests\\Testcase1Test.js",
+      "file": "cypress\\integration\\cypressPOMTests\\Testcase1Test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5c76affd-b448-4121-9857-8155494e28bc",
+          "title": "Testcase 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify user lands on correct page by verifying page title",
+              "fullTitle": "Testcase 1 Verify user lands on correct page by verifying page title",
+              "timedOut": null,
+              "duration": 30674,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(\"Verify user lands on correct page by verifying page title\");\nhomePage.navigateToUrl();\nhomePage.setLocation();\nhomePage.clickGroceriesAndEssentials();\ngroceriesAndEssentialsPage.verifyUserLandedOnGroceriesAndEssentialsPage();\nhomePage.clickDunzoImageLogo();\nhomePage.clickPickAndDrop();\npickAndDropPage.verfiyPickAndDropPageTitle();\nhomePage.clickDunzoImageLogo();\nhomePage.clickMeatAndFishStoreLink();\nmeatAndFishPage.verfiyMeatAndFishPageTitle();\nhomePage.clickDunzoImageLogo();\nhomePage.clickFruitsAndVegetables();\nfruitsAndVegetablesPage.verifyUserLandedOnFruitsAndVegetablesPage();",
+              "err": {},
+              "uuid": "3236713f-27cd-445d-b651-24a06a6fada9",
+              "parentUUID": "5c76affd-b448-4121-9857-8155494e28bc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3236713f-27cd-445d-b651-24a06a6fada9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30674,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "screenshots": true,
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "json": true,
+        "video": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
