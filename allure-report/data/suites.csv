@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Dec 18 22:25:45 ICT 2023","Mon Dec 18 22:26:20 ICT 2023","34226","","Testcase 1","","Testcase 1","Verify user lands on correct page by verifying page title","Verify user lands on correct page by verifying page title",""
+"passed","Wed Dec 20 23:19:31 ICT 2023","Wed Dec 20 23:20:04 ICT 2023","32984","","Testcase 1","","Testcase 1","Verify user lands on correct page by verifying page title","Verify user lands on correct page by verifying page title",""
