@@ -19,6 +19,7 @@
     "clean:folders": "rm -R -f allure-report && rm -R -f allure-results",
     "test:allure": "npm run pretest && npm run clean:folders && npx cypress run --spec cypress/integration/cypressPOMTests/Testcase1Test.js --browser chrome --reporter mocha-allure-reporter --env allure=true",
     "report:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "reportAllure": "allure generate allure-results --clean -o allure-report",
     "testAllure": "npm run pretest && npm run clean:folders && npm run test:allure && npm run report:allure",
     "cypress:run:mobile": "cypress run --spec cypress/integration/cypressPOMTests/Testcase3Test.js --headed --browser chrome --config viewportWidth=375,viewportHeight=667"
   },
