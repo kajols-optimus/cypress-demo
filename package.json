@@ -8,7 +8,7 @@
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --browser chrome",
     "recordDashboardTest": "npm run pretest && npx cypress run --record --key cd35a028-2fd1-408c-b21f-20e69740d58b --spec cypress/integration/cypressPOMTests/Testcase1Test.js --headed --browser chrome",
-    "specFileTest": "npx cypress run --spec cypress/integration/cypressPOMTests/Testcase1Test.js --headed --browser chrome",
+    "specFileTest": "npx cypress run --spec cypress/integration/cypressPOMTests/Testcase1Test.js --browser chrome",
     "clean:reports": "rm -R -f cypress/results && rm -R -f mochawesome-report && rm -R -f mochawesome.json",
     "pretest": "npm run clean:reports",
     "scripts": "cypress run",
